@@ -1,6 +1,6 @@
 bin/
 lib/
-idea/
+.idea/
 pyvenv.cfg
-.Python
+.Python/
 
