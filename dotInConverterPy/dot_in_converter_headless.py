@@ -11,6 +11,7 @@ with open(targetCSV, 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         user = CustomerInfo()
+        user.initFromRecipientEmailAddress(row[2])
         user.initFromRecipientContactName(row[3])
         user.initFromRecipientAddress1(row[4])
         user.initFromRecipientAddress2(row[5])

@@ -1,11 +1,11 @@
-class FedexIdentifier(object):
+class FedexIdentifier:
     # def __int__(self, value: str, identifier: str):
     def __init__(self, value, identifier):
         self.value = value
         self.identifier = identifier
 
 
-class CustomerInfo(FedexIdentifier):
+class CustomerInfo:
     def __init__(self):
         # Fedex identifier: 0
         self.transactionType = FedexIdentifier("20", "0")
@@ -85,7 +85,7 @@ class CustomerInfo(FedexIdentifier):
         # Fedex identifier: 414
         self.unitOfMeasure = FedexIdentifier("BOX", "414")
         # Fedex identifier: 1202
-        self.recipientEmailAddress = FedexIdentifier("Recipient's Email Address", "1202")
+        self.recipientEmailAddress = FedexIdentifier("", "1202")
         # Fedex identifier: 2806
         self.ETDIndicator = FedexIdentifier("Y", "2806")
         # Fedex identifier: 72
