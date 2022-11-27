@@ -8,19 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var env: GlobalEnvironment
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            CSVSelector()
+                .border(.secondary)
+            CustomerLists()
+                .border(.secondary)
+            exportIn()
         }
+        .environmentObject(GlobalEnvironment())
+        .frame(minWidth: 800, minHeight: 800)
         .padding()
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(GlobalEnvironment())
     }
 }

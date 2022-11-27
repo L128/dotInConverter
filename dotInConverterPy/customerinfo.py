@@ -64,8 +64,7 @@ class CustomerInfo:
         # Fedex identifier: 75
         self.weightType = FedexIdentifier("KGS", "75")
         # Fedex identifier: 79 - 1
-        self.description = FedexIdentifier("Wristcam/Digital still image video camera/Final-Assemble-Black-Carton-US",
-                                           "79-1")
+        self.description1 = FedexIdentifier("Wristcam/Digital still image video camera/Final-Assemble-Black-Carton-US", "79-1")
         # Fedex identifier: 81 - 1
         self.harmonizedCode = FedexIdentifier("8525804000", "81-1")
         # Fedex identifier: 82 - 1
