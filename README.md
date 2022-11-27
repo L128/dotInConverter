@@ -13,3 +13,4 @@ python3 /dir/to/dotInConverter/dotInConverterPy/dot_in_converter_headless.py /di
 
 Notes:
 1. Don't forget the last slash for target folder
+2. The csv format is out-dated.
