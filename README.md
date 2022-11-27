@@ -1,5 +1,11 @@
 # dotInConverter
 
+## Swift UI
+Usage:
+
+Find dotInConverter.app in /dotInConverter/Elements/dotInConverter*/dotInConverter.app
+Double click to use it.
+
 ## Headless Tool
 Usage: 
 
