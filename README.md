@@ -3,8 +3,7 @@
 ## Swift UI
 Usage:
 
-Find dotInConverter.app in /dotInConverter/Elements/dotInConverter*/dotInConverter.app
-Double click to use it.
+Double click dotInConverter.app to use it.
 
 ## Headless Tool
 Usage: 
